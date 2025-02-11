@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik-Regular'),
+    url('../font/Rubik-Regular.woff2') format('woff2'),
+    url('../font/Rubik-Regular.woff') format('woff'),
+    url('../font/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik-Medium'),
+    url('../font/Rubik-Medium.woff2') format('woff2'),
+    url('../font/Rubik-Medium.woff') format('woff'),
+    url('../font/Rubik-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik-SemiBold'),
+    url('../font/Rubik-SemiBold.woff2') format('woff2'),
+    url('../font/Rubik-SemiBold.woff') format('woff'),
+    url('../font/Rubik-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik-Bold'),
+    url('../font/Rubik-Bold.woff2') format('woff2'),
+    url('../font/Rubik-Bold.woff') format('woff'),
+    url('../font/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik-italic'),
+    url('../font/Rubik-italic.woff2') format('woff2'),
+    url('../font/Rubik-italic.woff') format('woff'),
+    url('../font/Rubik-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+.page_theme_main {
+  font-family: 'Rubik';
+  color: var(--Black);
+  box-sizing: border-box;
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+
+form {
+  margin: 0;
+}
+
+p {
+  line-height: 140%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: normal;
+  text-indent: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+  color: var(--White);
+
+  @media(max-width:768px) {
+    font-size: 2.25rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+
+  @media(max-width:768px) {
+    padding-bottom: 24px;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 0.875rem;
+}

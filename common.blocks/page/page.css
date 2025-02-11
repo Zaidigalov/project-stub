@@ -1,0 +1,22 @@
+:root {
+  --Black: #0B0B0B;
+  --White: #ffffff;
+  --Yellow: #FFB629;
+  --Yellow-light: #FFD550;
+  --Gray-30: #b3b3b3;
+  --Gray-50: #808080;
+  --Gray-70: #4d4d4d;
+  --Gray-light: #f2f2f2;
+  --Gray-light-2: #f7f7f7;
+  --Red: #fc0000;
+  --Yellow-gradient: linear-gradient(90deg, rgba(255, 182, 41, 1) 0%, rgba(255, 218, 86, 1) 51%, rgba(255, 215, 166, 1) 100%);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.page {
+  -webkit-tap-highlight-color: transparent;
+}
